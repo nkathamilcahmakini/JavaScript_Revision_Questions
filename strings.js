@@ -74,8 +74,16 @@ console.log(index);
 
 //Write a function that takes a string as input and 
 //returns a new string with all the vowels removed.
-
+function removevowels(vowels){
+  // Define a regular expression to match consonants 
+  return vowels.replace(/[a,e,i,o,u]/gi, "");
+  }
+  let vowels="Milcah";
+    console.log(removevowels(vowels));
 
 //Write a function that takes a string as input and 
 //returns a new string with all the consonants removed.
+
+
+
 
